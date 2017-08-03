@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+body {
+  font-family: Playball, Times New Roman, Arial, Helvetica, sans-serif;
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 100%;
+  display: table;
+}
+
+.confettiCanvas{
+	overflow: hidden;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.center {
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  -webkit-filter: drop-shadow(5px 5px 5px #000);
+  filter: drop-shadow(5px 5px 5px #000);
+}
+
+.logo {
+  max-width: 60%;
+}
+
+.nav {
+  width: 100%;
+  position: absolute;
+  bottom: 50px; left: 0;
+  text-align: center;
+}
+.nav a {
+  height: 36px;
+  margin: 6px 8px 6px 0; padding: 0 26px;
+
+  font-weight: 550;
+  font-size: 32px;
+  letter-spacing: .10em;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ddd;
+  text-decoration: none;
+  background-color: transparent;
+  transition: all .2s ease-in-out;
+  display: inline-block;
+
+  border: none;
+  outline: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  text-shadow: 2px 2px #000;
+
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+  background-image: none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+  position: relative;
+  overflow: hidden;
+}
+.nav a:visited {
+  color: #ddd;
+}
+
+@font-face {
+	font-family: 'Playball', cursive;
+}
